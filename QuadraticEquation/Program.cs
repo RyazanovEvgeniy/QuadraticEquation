@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using Test;
 
 Console.WriteLine("QuadraticEquation project");
-Console.WriteLine("_________________________");
+Console.WriteLine("_________________________________________________________________");
 Console.WriteLine("Enter file path: (For example - 'D:\\input.txt')");
 
 string inputFile = Console.ReadLine();
 
 if (InputFile.TryReadEquationsFromFile(inputFile, out List<QuadraticEquation> equations))
 {
-    Console.WriteLine("_________________________________________________________________\n");
+    Console.WriteLine("_________________________________________________________________");
 
     foreach (QuadraticEquation equation in equations)
     {
