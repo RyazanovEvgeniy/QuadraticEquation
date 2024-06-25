@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Test;
+using Equations;
 
 Console.WriteLine("QuadraticEquation project");
 Console.WriteLine("_________________________________________________________________");
